@@ -9,7 +9,6 @@ import time
 @st.cache_data
 def load_data():
     genres_df = pd.read_csv("genres_v2.csv")
-")
     return genres_df
 
 # Preprocess the dataset
